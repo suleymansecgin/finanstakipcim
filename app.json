@@ -22,7 +22,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.suleymansecgin.AbonelikTakip"
     },
     "web": {
       "bundler": "metro",
@@ -35,6 +35,12 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "876efca1-079c-4748-bb74-6f88701ba677"
+      }
     }
   }
 }
