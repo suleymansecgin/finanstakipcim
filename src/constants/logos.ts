@@ -1,0 +1,30 @@
+export const LOGO_MAP: Record<string, any> = {
+    'adobe-creative-cloud': require('../../assets/logos/adobecreativecloud.png'),
+    'amazon-prime': require('../../assets/logos/amazon-prime.png'),
+    'bein-sports': require('../../assets/logos/beinsports.png'),
+    'blutv': require('../../assets/logos/blutv.png'),
+    'canva': require('../../assets/logos/canva.png'),
+    'chatgpt': require('../../assets/logos/chatgpt.png'),
+    'disney-plus': require('../../assets/logos/disney-plus.png'),
+    'exxen': require('../../assets/logos/exxen.png'),
+    'gemini': require('../../assets/logos/gemini.png'),
+    'icloud': require('../../assets/logos/icloud.png'),
+    'netflix': require('../../assets/logos/netflix.png'),
+    'onedrive': require('../../assets/logos/onedrive.png'),
+    'spotify': require('../../assets/logos/spotify.png'),
+    'ssport': require('../../assets/logos/ssport.png'),
+    'youtube': require('../../assets/logos/youtube.png'),
+
+    // Other Services
+    'rent': require('../../assets/logos/rent.png'),
+    'bank': require('../../assets/logos/bank.png'),
+    'bus': require('../../assets/logos/bus.png'),
+    'bills': require('../../assets/logos/bills.png'),
+    'personal': require('../../assets/logos/personal.png'),
+    'education': require('../../assets/logos/education.png'),
+    'trendyol': require('../../assets/logos/trendyol.png'),
+    'hepsiburada': require('../../assets/logos/hepsiburada.png'),
+    'x': require('../../assets/logos/x.png'),
+    // Fallback
+    'default': require('../../assets/logos/netflix.png'),
+};
