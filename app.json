@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "aboneliktakip",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "splash": {
       "image": "./assets/images/splash-icon.png",
       "resizeMode": "contain",
@@ -37,8 +37,10 @@
         {
           "android": {
             "usesCleartextTraffic": true,
-            "kotlinVersion": "1.8.10",
-            "jdk": "17"
+            "gradleChildProcessParams": [
+              "-Xmx3072m",
+              "-XX:MaxMetaspaceSize=512m"
+            ]
           }
         }
       ]
